@@ -1,7 +1,7 @@
 import React from "react";
 import { Paper, Typography, Tooltip, IconButton } from "@mui/material";
 import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
-import sass from "../../../../styles/DataCard.module.scss";
+import sass from "../../../styles/DataCard.module.scss";
 
 export type DataCardProps = {
   title: string;

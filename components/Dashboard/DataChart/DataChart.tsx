@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from "react";
-import { months } from "../../../helper/Util";
+import { months } from "../../../pages/helper/Util";
 import { darkOptions } from "./Themes";
 import { Chart, registerables } from "chart.js";
 import { ChartConfiguration } from "chart.js/dist/types";

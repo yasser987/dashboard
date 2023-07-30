@@ -1,8 +1,7 @@
 import React from "react";
 import { Paper, Stack, useMediaQuery } from "@mui/material";
-import sass from "../../../../styles/TranscationBottomRaw.module.scss";
-import DataChart from "../../../components/Dashboard/DataChart";
-import { doughnutChartData } from "../../../components/mockData";
+import DataChart from "../DataChart";
+import { doughnutChartData } from "../../mockData";
 
 export default function TranscationBottomRaw() {
   const isMobile = useMediaQuery("(max-width: 900px)");

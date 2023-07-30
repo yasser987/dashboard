@@ -1,7 +1,7 @@
 import React from "react";
 import { useTheme } from "@mui/system";
 import { Grid, Paper, Typography, Card } from "@mui/material";
-import sass from "../../../../styles/Transcation.module.scss";
+import sass from "../../../styles/Transcation.module.scss";
 import DataChart from "../DataChart";
 import { lineChartData } from "../../mockData";
 

@@ -4,7 +4,7 @@ import { styled, useTheme } from "@mui/material/styles";
 import { signIn, signOut, useSession } from "next-auth/react";
 import Link from "next/link";
 import React from "react";
-import sass from "../../../styles/Footer.module.scss";
+import sass from "../../styles/Footer.module.scss";
 
 export default function Footer() {
   const { data: session } = useSession();

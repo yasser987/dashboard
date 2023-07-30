@@ -2,7 +2,7 @@ import React from "react";
 import { useSession } from "next-auth/react";
 import SideMenu from "../SideMenu";
 import Head from "next/head";
-import sass from "../../../styles/Layout.module.scss";
+import sass from "../../styles/Layout.module.scss";
 import Footer from "../Footer";
 
 export default function Layout(props: any) {

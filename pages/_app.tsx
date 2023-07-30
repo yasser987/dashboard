@@ -10,8 +10,8 @@ import {
 import React from "react";
 import { darkTheme } from "./Themes/darkTheme";
 import { lightTheme } from "./Themes/lightTheme";
-import Header from "./components/Header";
-import Layout from "./components/Layout";
+import Header from "../components/Header";
+import Layout from "../components/Layout";
 
 const ColorModeContext = React.createContext({ toggleColorMode: () => {} });
 

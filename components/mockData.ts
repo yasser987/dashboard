@@ -1,4 +1,4 @@
-import { months } from "../helper/Util";
+import { months } from "../pages/helper/Util";
 import React from "react";
 
 const labels = months({ count: 7 });
