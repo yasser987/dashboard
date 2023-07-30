@@ -1,0 +1,55 @@
+$breakPoint: 1000px;
+
+.wrapper {
+  display: flex;
+}
+.transaction {
+  display: block;
+  padding: 1rem 2rem;
+  width: 100%;
+
+  @media screen and (min-width: $breakPoint) {
+    display: flex;
+  }
+}
+
+.chart {
+  max-width: 100%;
+  width: 100%;
+  @media screen and (min-width: $breakPoint) {
+    max-width: 80%;
+  }
+}
+
+.cardWrapper {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 100%;
+  width: 100%;
+  @media screen and (min-width: $breakPoint) {
+    flex-direction: column;
+    max-width: 20%;
+  }
+}
+
+.card {
+  text-align: center;
+  padding: 1rem;
+  width: 100%;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+
+  @media screen and (min-width: $breakPoint) {
+    padding: 0 0.5rem;
+  }
+}
+
+.cardTitle p {
+  font-size: 1.1rem;
+}
+.cardValue p {
+  font-size: 1.2rem;
+}

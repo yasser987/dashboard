@@ -1,0 +1,8 @@
+.dashboardParent {
+  width: 85%;
+  margin: auto;
+  text-align: center;
+  @media screen and (max-width: 992px) {
+    width: 95%;
+  }
+}

@@ -1,0 +1,9 @@
+.bottomRaw {
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: 1fr;
+
+  @media screen and (min-width: 700px) {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
