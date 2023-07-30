@@ -1,4 +1,5 @@
 import { ThemeOptions } from "@mui/system";
+import React from "react";
 
 export const darkTheme: ThemeOptions = {
   palette: {

@@ -1,4 +1,5 @@
 import { ChartConfiguration } from "chart.js";
+import React from "react";
 
 export const lightOptions: ChartConfiguration["options"] = {
   scales: {

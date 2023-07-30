@@ -1,4 +1,6 @@
 import { ThemeOptions } from "@mui/system";
+import React from "react"
+
 export const lightTheme: ThemeOptions = {
   palette: {
     mode: "light",
