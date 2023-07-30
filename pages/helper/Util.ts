@@ -27,3 +27,5 @@ export const months = (config: any) => {
   }
   return values;
 };
+
+export {};

@@ -1,5 +1,5 @@
 import { ThemeOptions } from "@mui/system";
-import React from "react"
+import React from "react";
 
 export const lightTheme: ThemeOptions = {
   palette: {
@@ -15,3 +15,5 @@ export const lightTheme: ThemeOptions = {
     },
   },
 };
+
+export {};

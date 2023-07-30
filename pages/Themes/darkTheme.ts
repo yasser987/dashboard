@@ -12,3 +12,5 @@ export const darkTheme: ThemeOptions = {
     },
   },
 };
+
+export {};

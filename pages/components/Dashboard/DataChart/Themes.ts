@@ -52,3 +52,5 @@ export const darkOptions: ChartConfiguration["options"] = {
     },
   },
 };
+
+export {};
